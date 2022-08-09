@@ -104,23 +104,6 @@ void DifMinMaxDouble(double[] array){
     Console.WriteLine("Разница между максимальным и минимальным элементов массива: " + result);
 }
 
-void SortArray(int[] array){
-    int size = array.Length;
-
-    for(int i = 0; i < size; i++){
-        int minPosition = i;
-
-        for(int j = i; j < size; j++){
-            if(array[j] < array[minPosition]){
-                minPosition = j;
-            }
-        }
-        int temporary = array[i];
-        array[i] = array[minPosition];
-        array[minPosition] = temporary;
-    }
-}
-
 void EvenNumber(int[] array){
     int size = array.Length;
     int result = 0;
