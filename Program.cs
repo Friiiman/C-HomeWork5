@@ -65,7 +65,6 @@ void PrintArray(int[] array){
 }
 
 void FillArrayDouble(double[] array, int startNumber = 0, int finishNumber = 100){
-    finishNumber++;
     int size = array.Length;
     Random random = new Random();
 
@@ -132,6 +131,6 @@ void SumOddIndexNumber(int[] array){
 // ------------- ВЫВОД РЕШЕНИЯ ЗАДАЧ -------------
 // -----------------------------------------------
 
-// Task1();
+Task1();
 // Task2();
-Task3();
+// Task3();
